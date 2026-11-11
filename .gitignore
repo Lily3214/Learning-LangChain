@@ -1,20 +1,8 @@
-
-# Python virtual environments
-env/
-venv/
-.venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Environment variables and secrets
-.env
-.env.*
-
-# Visual Studio
 .vs/
+env/
+.venv/
+venv/
+__pycache__/
+*.pyc
 *.pyproj.user
-
-# Temporary files
-*.log
+.env

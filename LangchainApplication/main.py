@@ -5,16 +5,21 @@ def main():
 
     print("===LangChain AI chatbot ===")
     print("Type 'exit' to quit.")
+    print("Type 'clear' to reset conversation history.")
 
     while True:
-        question = input("\nYou: ")
+        question = input("\nYou: ").strip()
 
         if question.lower() == "exit":
             print("Goodbye!")
             break
 
+        if question.lower() == "clear":
+            chatbot.clear_memory()
+            print("Conversation history cleared!")
+            continue
 
-        if not question.strip():
+        if not question:
             continue
 
         try:
