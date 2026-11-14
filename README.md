@@ -3,7 +3,7 @@
 ## 1. Introduction
 This project is a Python-based AI chatbot application developed using Langchain and Ollama. The purpose of this project is to learn how to build AI applications, connect to a local AI model, manage conversation history, and process AI responses.
 
-The application allows users to ask questions and receive AI-generated answers. It also remembers previous questions and answers during the current session, allowing users to have continuous conversation with the chatbot. 
+"The application allows users to ask questions and receive AI-generated answers. It also remembers previous questions and answers during the current session, allowing users to have continuous conversation with the chatbot." 
 
 ## 2. Technology Used
 - Python
